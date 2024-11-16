@@ -56,5 +56,5 @@ val1 = undefined ?? 15;
 const iceTeaPrice = 200;
 
 iceTeaPrice <= 100
-  ? console.log("Less than 100")
-  : console.log("more than 100");
+  ? console.log(`Less than 100 iceTea price is ${iceTeaPrice}`)
+  : console.log(`More than 100 iceTea price is ${iceTeaPrice}`);
