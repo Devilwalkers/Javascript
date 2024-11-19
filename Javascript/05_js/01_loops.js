@@ -26,9 +26,27 @@ for (let i = 0; i < 3; i++) {
 //Table printing using Loop
 
 for (let i = 1; i < 3; i++) {
-  console.log(`${i}'s Table`);
-  
+  // console.log(`${i}'s Table`);
+
   for (let j = 1; j <= 10; j++) {
-    console.log(i, "", "*", "", j, "=", i * j);
+    // console.log(i, "", "*", "", j, "=", i * j);
   }
+}
+
+//Break and Continue
+
+for (let i = 1; i <= 10; i++) {
+  if(i==7){
+    // console.log("the trigger value is ",i);
+    break;
+  }
+  // console.log(`Value is ${i}`);
+}
+
+for (let i = 1; i <= 10; i++) {
+  if(i==7){
+    console.log("You can continue after this value ",i);
+    continue;
+  }
+  console.log(`Value is ${i}`);
 }
