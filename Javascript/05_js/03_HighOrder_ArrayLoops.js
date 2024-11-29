@@ -1,4 +1,4 @@
-// for of loop
+// forof loop
 
 // ["","",""]
 // [{},{},{}]
@@ -39,6 +39,12 @@ const myObject = {
   game3: "Valorant",
 };
 for (const key in myObject) {
-//   console.log(`${key} Shortcut is for ${myObject[key]}`);
+  // console.log(myObject[key]);
+  // console.log(`${key} Shortcut is for ${myObject[key]}`);
 }
 
+const programming = ["js", "rb", "py", "java", "cpp"];
+for (const key in programming) {
+  // console.log(key);
+  // key of the array
+}
