@@ -35,5 +35,27 @@ const myCoding = [
   },
 ];
 myCoding.forEach((item, index) => {
-  console.log(index, item.languageName);
+  // console.log(index, item.languageName);
 });
+
+// Filter
+
+const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// const newNums = myNums.filter((callback function) => condition);
+
+//if I write {} after arrow function then I have to write return before condition
+// const newNums = myNums.filter((num) => {
+//   return num > 4;
+// });
+// console.log(newNums);
+
+const newNums = [];
+
+myNums.forEach((num) => {
+  if (num > 6) {
+    newNums.push(num);
+  }
+});
+console.log(newNums);
+
