@@ -36,7 +36,7 @@ for (let i = 1; i < 3; i++) {
 //Break and Continue
 
 for (let i = 1; i <= 10; i++) {
-  if(i==7){
+  if (i == 7) {
     // console.log("the trigger value is ",i);
     break;
   }
@@ -44,8 +44,8 @@ for (let i = 1; i <= 10; i++) {
 }
 
 for (let i = 1; i <= 10; i++) {
-  if(i==7){
-    console.log("You can continue after this value ",i);
+  if (i == 7) {
+    console.log("You can continue after this value ", i);
     continue;
   }
   console.log(`Value is ${i}`);
